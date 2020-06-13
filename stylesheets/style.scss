@@ -14,7 +14,7 @@ $headline-font: 'Sriracha', cursive;
 }
 
 body {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ a {
 
 header {
     position: relative;
-    width: 700px;
+    width: 100%;
     color: $primary-font-color;              
     background: $primary-color;
     font-family: $normal-font;
@@ -85,7 +85,7 @@ header {
 
 section.blog-container {
     position: relative;
-    width: 700px;
+    width: 100%;
     color: $secondary-font-color;              
     background: $primary-font-color;
     font-family: $normal-font;
@@ -134,7 +134,7 @@ section.blog-container {
 footer {
     text-align: center;
     padding-top: 20px;
-    width: 700px;
+    width: 100%;
     color: $secondary-font-color;
     background: $primary-font-color;
 }

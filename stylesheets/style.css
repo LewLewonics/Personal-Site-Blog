@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +28,7 @@ a {
 
 header {
   position: relative;
-  width: 700px;
+  width: 100%;
   color: #323131;
   background: #E5F4FF;
   font-family: "Montserrat", sans-serif;
@@ -95,7 +95,7 @@ header img#web_dev {
 
 section.blog-container {
   position: relative;
-  width: 700px;
+  width: 100%;
   color: #ffffff;
   background: #323131;
   font-family: "Montserrat", sans-serif;
@@ -153,7 +153,7 @@ section.blog-container article p a {
 footer {
   text-align: center;
   padding-top: 20px;
-  width: 700px;
+  width: 100%;
   color: #ffffff;
   background: #323131;
 }
