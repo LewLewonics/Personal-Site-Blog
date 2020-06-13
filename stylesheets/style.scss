@@ -14,7 +14,7 @@ $headline-font: 'Sriracha', cursive;
 }
 
 body {
-    width: 100vw;
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -73,14 +73,6 @@ header {
         position: absolute;
         bottom: 0;
     }
-
-    img#web_dev {
-        width: 300px;
-        height: auto;
-        position: absolute;
-        bottom: 0;
-        left: 200px;
-    }
 }
 
 section.blog-container {
@@ -90,7 +82,7 @@ section.blog-container {
     background: $primary-font-color;
     font-family: $normal-font;
     .blog-post {
-        margin: 50px;
+        margin: 20px;
 
         .date {
             font-weight: lighter;
@@ -102,8 +94,8 @@ section.blog-container {
         .thumbnail-container {
             position: relative;
             display: inline-block;
-            width: 350px;
-            height: 125px;
+            width: 300px;
+            height: 150px;
         }
         .thumbnail {
             object-fit: cover;
